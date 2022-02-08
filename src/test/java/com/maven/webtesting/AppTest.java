@@ -13,7 +13,7 @@ public class AppTest {
     @Before
     public void configureDriver() {
         System.setProperty("webdriver.chrome.driver",
-                "C:/Users/sebask8er/Desktop/Selenium WebTesting/selenium/driver/chromedriver.exe");
+                "C:/Users/sebask8er/Desktop/selenium-webdriver-testing/driver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
